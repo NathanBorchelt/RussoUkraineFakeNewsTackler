@@ -34,6 +34,6 @@ for i in range(0, int(nExec), 1):
 
     tab_refresh(cible)
     time.sleep(2)
-    cible += 1
     if cible == int(nTab):
-        cible = 1
+        cible = 0
+    cible += 1
